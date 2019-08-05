@@ -1,0 +1,181 @@
+
+/* Header */
+
+#header-wrapper {
+}
+
+.homepage #header-wrapper {
+}
+
+#header {
+	position: relative;
+	padding: 3em 0em;
+}
+
+/* Logo */
+
+#logo {
+	position: absolute;
+	top: 3em;
+	left: 0;
+}
+
+#logo h1
+{
+	float: left;
+}
+
+#logo h1 a {
+	padding: 0.5em 0.25em 0em 0em;
+	text-decoration: none;
+	text-transform: none;
+	font-family: 'Oswald', sans-serif;
+	font-size: 2.5em;
+	font-weight: 200;
+	color: #1C1C1C;
+}
+
+#logo span {
+	float: left;
+	padding: 1em 0em 0em 0em;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 1em;
+	font-style: italic;
+	color: #545454;
+}
+
+/* Menu */
+
+#nav {
+	position: absolute;
+	top: 3em;
+	right: 0;
+}
+
+#nav ul {
+	float: right;
+	text-align: center;
+}
+
+#nav li {
+	display: inline-block;
+}
+
+#nav a {
+	display: block;
+	float: left;
+	margin-right: 0.12em;
+	padding: 0.75em 1.5em;
+	text-decoration: none;
+	text-transform: none;
+	font-family: 'Abel', sans-serif;
+	font-size: 1.25em;
+	color: #2C2C2C;
+}
+
+#nav .current_page_item {
+	color: #2C2C2C;
+}
+
+#nav .current_page_item a {
+	background: #212121;
+	color: #FFFFFF;
+	box-shadow: inset 0px -15px 10px 0px rgba(0,0,0,0.25);
+	text-shadow: none;
+}
+
+
+/* Wrapper */
+
+#wrapper {
+	overflow: hidden;
+	margin: 5em 0em 3em 0em;
+}
+
+.homepage #wrapper {
+	margin-top: 0em;
+}
+
+
+/* Page Wrapper */
+
+#page {
+	overflow: hidden;
+	background: url(images/img02.jpg) repeat-x left bottom;
+}
+
+
+/* Banner */
+
+#banner {
+	overflow: hidden;
+	margin: 3em 0em;
+	background: url(images/img02.jpg) repeat-x left bottom;
+}
+
+#banner .container {
+	margin-bottom: 3em;
+	padding: 1.87em;
+	background: #FFFFFF url(images/img02.png) repeat;
+}
+
+#banner a img {
+	display: block;
+	width: 100%;
+}
+
+/* Content */
+
+#content h2 {
+	padding: 0em 0em 1em 0em;
+	font-size: 2.5em;
+}
+
+#content img {
+	padding: 0em 0em 1.25em 0em;
+}
+
+#content a img {
+	display: block;
+	width: 100%;
+}
+
+#content .post {
+	padding: 0em 0em 2.5em 0em;
+}
+
+/* Sidebar1 */
+
+#sidebar1 {
+}
+
+#sidebar1 h2 {
+	padding: 0em 0em 1em 0em;
+}
+/* Marketing */
+
+#marketing {
+	overflow: hidden;
+}
+
+#marketing .divider {
+	margin-bottom: 3em;
+	padding-bottom: 3em;
+	background: url(images/img02.jpg) repeat-x left bottom;
+}
+
+#marketing .title {
+	padding-bottom: .75em;
+}
+
+#marketing .subtitle {
+	padding: 0em 0em 2em 0em;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-style: italic;
+}
+
+#marketing a img {
+	display: block;
+	width: 100%;
+}
+
