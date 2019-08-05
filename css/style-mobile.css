@@ -1,0 +1,184 @@
+body {
+	font-size: 9pt;
+	line-height: 1.25em;
+}
+
+/* Header */
+
+#header {
+	display: none;
+}
+
+/*********************************************************************************/
+/* UI                                                                            */
+/*********************************************************************************/
+
+#titleBar {
+	background-color: #62573b;
+	background-color: #8C3131;
+}
+
+#titleBar .title a {
+	display: block;
+	color: #fff;
+	text-align: center;
+	line-height: 44px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: 1.4em;
+	font-weight: 700;
+}
+
+#titleBar .title span {
+	display: none;
+}
+
+#titleBar .toggle {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 80px;
+	height: 60px;
+}
+
+#titleBar .toggle:before {
+	content: '';
+	display: block;
+	width: 60px;
+	height: 40px;
+	border-radius: 4px;
+	position: absolute;
+	left: 5px;
+	top: 5px;
+}
+
+#titleBar .toggle:after {
+	content: '';
+	display: block;
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	left: 15px;
+	top: 15px;	
+	opacity: 1;
+}
+
+#titleBar .toggle:active:after {
+	opacity: 1;
+}
+
+/* Wrapper */
+
+#wrapper {
+	overflow: hidden;
+	padding: 2em 0em 0em 0em;
+}
+
+/* Banner */
+
+#banner {
+	overflow: hidden;
+}
+
+#banner .container {
+	background: #FFFFFF;
+}
+
+#banner a img {
+	display: block;
+	width: 100%;
+}
+
+/* Content */
+
+#content {
+}
+
+#content h2 {
+	padding: 1em 0em 1em 0em;
+	font-size: 1.75em;
+}
+
+#content .subtitle {
+	padding: 0em 0em 1.25em 0em;
+	line-height: 120%;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 1em;
+	font-weight: 300;
+	font-style: italic;
+	color: #7D7D7D;
+}
+
+#content img {
+	padding: 0em 0em 0.62em 0em;
+}
+
+#content a img {
+	display: block;
+	width: 100%;
+}
+
+#content .post {
+	padding: 0em 0em 1.87em 0em;
+}
+
+#content section {
+	padding: 0em 1.87em;
+}
+
+/* Sidebar1 */
+
+#sidebar1 h2 {
+	padding: 1em 0em 1.5em 0em;
+	text-transform: none;
+	font-size: 1.75em;
+}
+
+#sidebar1 img {
+}
+
+#sidebar1 a img {
+}
+
+#sidebar1 section {
+	padding: 0em 1.87em;
+}
+/* Sidebar2 */
+
+#sidebar2 {
+}
+
+#sidebar2 h2 {
+	padding: 1em 0em 1.5em 0em;
+	text-transform: none;
+	font-size: 1.75em;
+}
+#sidebar2 section {
+	padding: 0em 1.87em;
+}
+
+/* Marketing */
+
+#marketing {
+	overflow: hidden;
+}
+
+#marketing .divider {
+}
+#marketing section {
+	padding: 0em 1.87em 2em 1.87em;
+}
+#marketing .title {
+	padding: 0em 0em 0.5em 0em;
+	font-size: 1.5em;
+}
+#marketing .subtitle {
+	padding: 0em 0em 1.25em 0em;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-style: italic;
+}
+#marketing a img {
+	display: block;
+	width: 100%;
+}
